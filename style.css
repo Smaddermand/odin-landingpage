@@ -1,0 +1,36 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    display: flex;
+}
+
+.header {
+    font-size: 24px;
+    background-color: #1f2937;
+    color: white;
+    flex: 1; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.logo-section{
+    margin-left: 24px;
+    display: flex;
+    align-items: center;
+}
+
+
+.top-links{
+    margin-right: 24px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+}
