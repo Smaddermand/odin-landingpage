@@ -1,21 +1,39 @@
 *{
     font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    
 }
 
 body{
     display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.header, .footer{
+    background-color: #1f2937;
+    color: white;
+    
 }
 
 .header {
     font-size: 24px;
-    background-color: #1f2937;
-    color: white;
-    flex: 1; 
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0;
+    padding: 8;
 }
 
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 .logo-section{
@@ -23,6 +41,8 @@ body{
     display: flex;
     align-items: center;
 }
+
+
 
 
 .top-links{
@@ -33,4 +53,12 @@ a{
     color: white;
     text-decoration: none;
     padding: 8px;
+}
+
+.main{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
